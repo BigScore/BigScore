@@ -8,13 +8,13 @@ st.set_page_config(
     page_icon=":bar_chart:",
     layout="wide",
 )
-st.title("Web App GoalPy ⚽")
+st.title("Web App Big Score ⚽")
 
 st.markdown(
     """
     <span style="color: blue">**Faça aqui suas análises dos seus  jogos para suas estrátegia ⭐**</span><br>
-    <span style="color: #FFC048">**Por Francisco Vito Júnior.**</span>  
-    <span style="color: green">*boas análises!!!*</span>  
+    <span style="color: #FFC048">**BIG SCORE**</span>  
+    <span style="color: green">*Boas Análises!!!*</span>  
     """,
     unsafe_allow_html=True,
 )
@@ -22,7 +22,8 @@ st.markdown(
 
 def load_data_jogos():
     #data_jogos = pd.read_csv(r"C:\Users\Administrador\Desktop\repositorios\full_repositiorio\goalpyapp\dados_csv\proximos_jogos.csv")
-    data_jogos = pd.read_csv('https://github.com/Franciscovj/full_repositiorio/blob/main/goalpyapp/dados_csv/proximos_jogos.csv?raw=true')
+    #data_jogos = pd.read_csv('https://github.com/Franciscovj/full_repositiorio/blob/main/goalpyapp/dados_csv/proximos_jogos.csv?raw=true')
+    data_jogos = pd.read_csv('https://github.com/BigScore/BigScore/blob/main/full_repositiorio-main/goalpyapp/dados_csv/proximos_jogos.csv')
     data_jogos = data_jogos[
         [
 
